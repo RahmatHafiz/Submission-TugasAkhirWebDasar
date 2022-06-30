@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+
+    - Terdapat elemen Header, Footer, Main, Article, dan Aside.
+    - Masing masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website). Sebagai contoh: Header berisi judul dan navigation.
+    - Menampilkan identitas diri (biodata diri) yang minimal harus berisi foto asli diri dan nama sesuai profil Dicoding. Identitas diri wajib ditampilkan dalam elemen Aside.
+    - Menyusun layout dengan menggunakan teknik float atau flexbox.
+    
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style/styles.css">
+    <title>Submission: Tugas Akhir Membuat Website</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h2>My Website</h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#bio">Bio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main>
+        <section class="banner-area">
+            <div class="banner-img"></div>
+            <h1>Hello Folks!</h1>
+            <h3>Welcome to My Website. Kindly click this button to know me.</h3><a class="banner-btn"
+                href="https://www.linkedin.com/in/rahmat-hafiz-jayadiningrat-90a2a7198/">Connect with
+                me</a>
+        </section>
+        <!--Article-->
+        <article>
+            <section class="about-area" id="aboutme">
+                <h3 class="section-title">About Me</h3>
+                <ul class="about-content">
+                    <li class="about-left"></li>
+                    <li class="about-right">
+                        <h2>Rahmat Hafiz Jayadiningrat</h2>
+                        <p> <span class="dropcap">H</span> ello my friends! In this opportunity, i want to introduce
+                            myself. My name is Hafiz, I was born on January, 14th 1996. I come from Pekanbaru, but now I
+                            live in East Jakarta and work as a freelance web developer. I have a high interest in UI/UX.
+                            I
+                            hope I can become a fullstack developer or become a founder and produce extraordinary works.
+                            That is all from me. Thank you.
+                        </p><a class="about-btn" href="###">Learn more</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <section class="skills-area" id="skills">
+            <h3 class="section-title">Skills</h3>
+            <ul class="skills-content">
+                <li>
+                    <i class="fa fa-html5"></i>
+                    <h4>HTML</h4>
+                    <p>HTML merupakan singkatan dari Hypertext Markup Language.</p>
+                </li>
+                <li>
+                    <i class="fa fa-css3"></i>
+                    <h4>CSS</h4>
+                    <p>CSS adalah singkatan dari Cascading Style Sheets.</p>
+                </li>
+                <li>
+                    <i class="fa fa-code"></i>
+                    <h4>JavaScript</h4>
+                    <p>Javascript adalah bahasa pemrograman yang bisa membuat internet bekerja.</p>
+                </li>
+            </ul>
+        </section>
+        <!--Aside-->
+        <aside>
+            <section class="bio-area" id="bio">
+                <h3 class="section-title">My Bio</h3>
+                <ul class="bio-content">
+                    <li>
+                        <i>
+                            <img src="assets/images/foto.jpg" title="Foto Profil Gua Cuy">
+                        </i>
+                        <figcaption>Foto Profil</figcaption>
+                    </li>
+                    <li>
+                        <i>
+                            <h3>Biodata Diri</h3>
+                        </i>
+                        <table>
+                            <br>
+                            <tr>
+                                <th>Nama Lengkap </th>
+                                <td>Rahmat Hafiz Jayadiningrat</td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>Nama Panggilan </th>
+                                <td>Hafiz</td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>Asal Kota </th>
+                                <td>Pekanbaru</td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>Pendidikan Terakhir </th>
+                                <td>Strata 1/Sarjana</td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>Email </th>
+                                <td>rahmathafiz14@outlook.com</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        <section class="contact-area" id="contact">
+            <h3 class="section-title">Contact</h3>
+            <ul class="contact-content">
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <p>Jl. Pesantren<br>
+                        Pekanbaru, Riau, Indonesia</p>
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <p>+6285311223344<br>
+                        +111 111 111</p>
+                </li>
+                <li>
+                    <i class="fa fa-twitter"></i>
+                    <p>@RahmatHafiz</p>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <p>rahmathafiz14@outlook.com</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p> Tugas Submission Belajar Dasar Pemrograman Web, Rahmat Hafiz Jayadiningrat</p>
+    </footer>
+</body>
+
+</html>
